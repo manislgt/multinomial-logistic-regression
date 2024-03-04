@@ -1,5 +1,5 @@
 library(nnet)
-kapselstat=read.csv("please2.csv")
+kapselstat=read.csv("datasample.csv")
 head(kapselstat)
 y=kapselstat[,4]
 y=factor(y)
